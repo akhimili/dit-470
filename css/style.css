@@ -1,0 +1,75 @@
+/* Universal Selector */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+/* name selector */
+body{
+  background-color: rgb(69, 6, 6) ;
+}
+/* Id Selector */
+#admin-box {
+ background-color: brown;
+ color: rgb(69, 6, 6) ;
+ width: 50px;
+ text-align: center;
+ margin: 10% auto 0px;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px white;
+}
+/* decedent selector */
+#admin-box h1{
+font-size: 35px;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* name selector */
+form{
+margin: 50px 0px;
+}
+/* grouping selector */
+label, 
+input{
+display: block;
+}
+label{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  width: 50%;
+  margin: 5px auto;
+  padding:10px ;
+  background-color: transparent;
+  color: ;
+  border:1px solid rgb(69, 6, 6)  ;
+}
+input::placeholder{
+  color:  rgb(69, 6, 6);
+}
+#btn{
+  font-size: 17px;
+  margin-top: 10px;
+  transition: ease-in-out 0.5s;
+}
+#btn:hover{
+  background-color: rgb(69, 6, 6) ;
+  color: brown;
+}
+/* class selector */
+.p-text{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 10px;
+}
+/* decedent selector */
+.p-text{
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
